@@ -10,7 +10,7 @@ The plugin is particularly indicated for Drupal sites using the Views module wit
 
 # Basic Usage
 
-This jQuery plugin must be used in a jQuery collection of two elements, where the first one hold the "sort by" element and the second holds the "sort order" element.
+This jQuery plugin must be used in a jQuery collection of two elements, where the first one holds the "sort by" element and the second holds the "sort order" element.
 
 <code>
 $('name[sort_by],name[sort_order]').sortBySortOrder(options);
