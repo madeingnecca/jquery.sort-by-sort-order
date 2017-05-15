@@ -1,4 +1,4 @@
-# jQuery Sort By Sort Order
+# The problem
 
 When it comes to sort a list of data a simple solution is to use two select elements: one for the sort criteria (e.g date, name, number or reviews) and one for the sort order (ascending/descending).
 
