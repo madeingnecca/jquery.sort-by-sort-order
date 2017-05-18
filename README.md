@@ -1,6 +1,6 @@
 # The problem
 
-When it comes to sort a list of data a simple solution is to use two select elements: one for the sort criteria (e.g date, name, number or reviews) and one for the sort order (ascending/descending).
+When it comes to sort a list of data a simple solution is to use two select elements: one for the sort criteria (e.g date, name, number of reviews) and one for the sort order (ascending/descending).
 
 This technique is simple and accessibility ready, however certain types of data can benefit from a different UI which lets users sort "by column", like in a spreadsheet software or in Finder/File Explorer.
 
@@ -13,7 +13,7 @@ The plugin is particularly indicated for Drupal sites using the Views module wit
 This jQuery plugin must be used in a jQuery collection of two elements, where the first one holds the "sort by" element and the second holds the "sort order" element.
 
 <code>
-$('name[sort_by],name[sort_order]').sortBySortOrder(options);
+$('[name=sort_by],[name=sort_order]').sortBySortOrder(options);
 </code>
 
 # Advanced Options
